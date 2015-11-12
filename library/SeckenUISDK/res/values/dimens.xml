@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="secken_text_32sp">32sp</dimen>
+    <dimen name="secken_text_24sp">24sp</dimen>
+    <dimen name="secken_text_22sp">22sp</dimen>
+    <dimen name="secken_text_20sp">20sp</dimen>
+    <dimen name="secken_text_18sp">18sp</dimen>
+    <dimen name="secken_text_16sp">16sp</dimen>
+
+</resources>

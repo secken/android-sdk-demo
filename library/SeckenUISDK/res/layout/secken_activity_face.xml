@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.test.MainActivity" >
+
+    <SurfaceView
+        android:id="@+id/preview_face"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.secken.sdk.ui.weight.maskview.MaskView
+        android:id="@+id/view_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/ll_title"
+            layout="@layout/secken_title_bar" />
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="@color/secken_red"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/face_tip"
+            android:textColor="@color/secken_white"
+            android:textSize="@dimen/secken_text_16sp" />
+    </LinearLayout>
+
+</FrameLayout>

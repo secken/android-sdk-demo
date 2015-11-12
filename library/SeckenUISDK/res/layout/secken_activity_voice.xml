@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true"
+    tools:context="com.secken.app.set.VoiceRecognitionActivity" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/secken_title_bar" />
+
+    <TextView
+        android:id="@+id/checkhandle_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/handle_loading"
+        android:textColor="@color/secken_white"
+        android:textSize="@dimen/secken_text_20sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/checknum_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_number"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/checkvoice_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/secken_text_color"
+            android:textSize="@dimen/secken_text_32sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/checkeight_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checknum_layout"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:text="@string/voice_tip"
+        android:textColor="@color/secken_white"
+        android:textSize="@dimen/secken_text_18sp" />
+
+    <!-- 声音部分 -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="220dip"
+        android:layout_below="@+id/tv_invisible"
+        android:layout_marginTop="10dip" >
+
+        <RelativeLayout
+            android:id="@+id/speak_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/tv_speak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/voice_speak"
+                android:textColor="@color/secken_white"
+                android:textSize="@dimen/secken_text_18sp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|bottom" >
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/outer_line_round" />
+
+            <ImageView
+                android:id="@+id/tv_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:src="@drawable/outer_line_unpressed" />
+        </FrameLayout>
+    </RelativeLayout>
+    <!-- 声音部分 -->
+
+    <TextView
+        android:id="@+id/tv_invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/secken_white"
+        android:textSize="@dimen/secken_text_18sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

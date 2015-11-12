@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secken_bg_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.test.MainActivity" >
+
+    <TextView
+        android:id="@+id/face_train"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/secken_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/face_train"
+        android:textColor="@color/secken_text_color"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/voice_train"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/secken_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/voice_train"
+        android:textColor="@color/secken_text_color"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/secken_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/logout"
+        android:textColor="@color/secken_text_color"
+        android:textSize="20sp" />
+
+</LinearLayout>

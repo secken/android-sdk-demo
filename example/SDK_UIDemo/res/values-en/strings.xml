@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SeckenSDK</string>
+    
+    <string name="sdk_demo">SDK	Function Module</string>
+    <string name="sdk_use">SDK Usage Scenarios</string>
+    
+    <!-- SDK Function Module  -->
+    <string name="auth">Click to authenticate</string>
+    <string name="sdk_function">SDK Function Module</string>
+    <string name="face_train">Train face recognition</string>
+    <string name="face_vertify">Face recognition</string>
+    <string name="face_delete">Delete face recognition</string>
+    <string name="voice_train">Train voice verification</string>
+    <string name="voice_vertify">Voice verification</string>
+    <string name="voice_delete">Delete voice verification</string>
+    <string name="qrcode">Scan it</string>
+    <string name="unbind">Cancel Authentication</string>
+
+    <!-- SDK  Usage Scenarios -->
+    <string name="login">Login</string>
+    <string name="face_login">Face Login</string>
+    <string name="voice_login">Voice Login</string>
+    <string name="login_title">User login</string>
+    <string name="logout">Logout</string>
+    <!-- Tip information -->
+    <string name="input_appkey">Please input appKey</string>
+    <string name="input_appid">Please input appid</string>
+    <string name="input_username">Please input username</string>
+    <string name="auth_success">Authentication success</string>
+    <string name="unbind_success">Unbind success</string>
+    <string name="face_delete_success">Face information deleted</string>
+    <string name="voice_delete_success">Voice information deleted</string>
+    <string name="face_train_success">Face recognition trained success</string>
+    <string name="face_train_fail">Fail to train face recognition</string>
+    <string name="face_train_cancel">Cancel training</string>
+    <string name="vertify_success">Recognition success</string>
+    <string name="vertify_fail">Recognition failed</string>
+    <string name="vertify_cancel">Cancel recognition</string>
+    <string name="voice_train_success">Voice verification trained success</string>
+    <string name="voice_train_fail">Fail to train voice verification</string>
+    <string name="voice_train_cancel">Cancel training</string>
+
+</resources>

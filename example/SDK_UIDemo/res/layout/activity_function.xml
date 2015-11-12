@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A90E2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.test.MainActivity" >
+
+    <!-- appKey,app_id,username 输入信息 -->
+
+
+    <!-- 接口调用模块 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/sdk_function"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_face_train"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/face_train"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_face_compare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/face_vertify"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_face_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/face_delete"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_voice_train"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/voice_train"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_voice_compare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/voice_vertify"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_voice_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/voice_delete"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_authcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/qrcode"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_unbind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/unbind"
+                android:textColor="#4A90E2"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="please_bind_secken">Please bind secken first.</string>
+    <string name="auth_type_error">Wrong authen type</string>
+    <string name="auth_type_face">Enable face recognition</string>
+    <string name="auth_type_voice">Enable voice verification</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="refuse">Reject</string>
+    <string name="description">Description</string>
+    <string name="username">User name</string>
+    <string name="ip">IP address</string>
+    <string name="try_again">Try again</string>
+    <!-- 声音 -->
+    <string name="check_ok">Verifying...</string>
+    <string name="check_fail">Wrong voice code, please retry</string>
+    <string name="check_fail1">Wrong voice code</string>
+    <string name="voice_noise">Too noisy</string>
+    <string name="voice_low">Low voice volumn</string>
+    <string name="voice_no_enough_audio">Audio is not free to say the requirements</string>
+    <string name="voice_truncated">The amplitude of the audio waveform is too large to exceed the range of the system</string>
+    <string name="voice_general">Normal, please continue to pass the audio</string>
+    <string name="context_error">Wrong voice code, plead reread</string>
+    <string name="voice_store">Too short record</string>
+    <string name="voice_tip">Please read the numbers at constant speed</string>
+    <string name="voice_speak">Push to speak</string>
+    <string name="handle_loading">Processing...</string>
+    <string name="check_laoding">Recognizing...</string>
+    <string name="voice_again">Please turn up the volumn to improve the recognition result!</string>
+    <string name="voice_last">Last time to finished!</string>
+    <string name="voice_regist_fail">Fail to register</string>
+    <string name="voice_isexit">Voice information exists, please register again after delete it</string>
+    <string name="getpassword">Please operate after you get the voice code</string>
+    <string name="voice_train_title">Create voice code training</string>
+    <string name="voice_regist">Register succeed</string>
+    <string name="do_fail">Operation failed</string>
+    <string name="voice_title">Voice recognition</string>
+    <string name="voice_uploading">Uploading voice information...</string>
+    <string name="voice_speeching">Recording voice...</string>
+    <!-- 二维码 -->
+    <string name="camera_tip">Please frame the QR code in the camera for auto scan</string>
+    <string name="title_scanning">Scan it</string>
+    <string name="qrdata_error">Wrong QR code format</string>
+    <string name="identify_fail_title">Fail to verification</string>
+    <!-- 人脸 -->
+    <string name="identify_fail_content">Please stand in a lighter place and face your phone</string>
+    <string name="face_tip">Please face the camera</string>
+    <string name="face_train_title">Create face information training</string>
+    <string name="face_train_one_title">First training succeed</string>
+    <string name="face_train_one_content">Please capture the picture in another place, if you are wearing glasses, please put it down and capture again.</string>
+    <string name="face_train_two_title">Second training succeed</string>
+    <string name="face_train_two_content">Last training to finish</string>
+    <string name="dialog_alert">Warm notice</string>
+    <string name="face_train_final_content">You have created the face recognitoin information</string>
+    <string name="success">Finished</string>
+    <string name="face_train_continue">Continue to training</string>
+    <string name="face_vertifying">Recogniting...</string>
+    <string name="face_title">Face recognition</string>
+
+</resources>
