@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secken_bg_color"
+    android:orientation="vertical"
+    tools:context="com.test.MainActivity" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="SDK Demo"
+        android:textColor="@color/secken_white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/tv_sdk_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@color/secken_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/sdk_demo"
+        android:textColor="@color/secken_text_color"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/tv_sdk_use"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sdk_demo"
+        android:layout_margin="20dp"
+        android:background="@color/secken_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/sdk_use"
+        android:textColor="@color/secken_text_color"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="please_bind_secken">请先绑定洋葱</string>
+    <string name="auth_type_error">验证类型错误</string>
+    <string name="auth_type_face">开启人脸验证</string>
+    <string name="auth_type_voice">开启声音验证</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="refuse">拒绝</string>
+    <string name="description">描  述</string>
+    <string name="username">用户名</string>
+    <string name="ip">IP地址</string>
+    <string name="try_again">重试</string>
+    <!-- 声音 -->
+    <string name="check_ok">正在验证...</string>
+    <string name="check_fail">有效数字验证失败,请重试</string>
+    <string name="voice_not_exist">声纹信息不存在</string>
+    <string name="voice_noise">太多噪音</string>
+    <string name="voice_low">音量太低</string>
+    <string name="voice_no_enough_audio">音频长达不到自由说的要求</string>
+    <string name="voice_truncated">音频波形幅度太大,超出系统范围</string>
+    <string name="voice_general">正常,请继续传音频</string>
+    <string name="context_error">有效数字验证不通过，您所读的文本不一致</string>
+    <string name="voice_store">录音太短</string>
+    <string name="voice_tip">请匀速念出以上数字</string>
+    <string name="voice_speak">按下说话</string>
+    <string name="handle_loading">处理中...</string>
+    <string name="check_laoding">正在识别...</string>
+    <string name="voice_again">为提高识别率，请调整音量再来一次!</string>
+    <string name="voice_last">最后再试一次就完成了!</string>
+    <string name="voice_regist_fail">注册失败</string>
+    <string name="voice_isexit">声纹信息已存在，请删除之后重新注册</string>
+    <string name="getpassword">请获取密码后进行操作</string>
+    <string name="voice_train_title">	创建声音训练</string>
+    <string name="voice_regist">注册成功</string>
+    <string name="do_fail">操作失败</string>
+    <string name="voice_title">声音验证</string>
+    <string name="voice_uploading">正在上传声音信息...</string>
+    <string name="voice_speeching">正在录制语音...</string>
+    <!-- 二维码 -->
+    <string name="camera_tip">请将二维码放入框内，即可自动扫描</string>
+    <string name="title_scanning">安全扫一扫</string>
+    <string name="qrdata_error">二维码格式不正确</string>
+    <string name="identify_fail_title">验证失败</string>
+    <!-- 人脸 -->
+    <string name="identify_fail_content">验证时请保持光线充足并且正对手机</string>
+    <string name="face_tip">请保持面部清晰可见</string>
+    <string name="face_train_title">创建人脸训练</string>
+    <string name="face_train_one_title">第一次训练成功</string>
+    <string name="face_train_one_content">请换个位置再扫一次，如果你佩戴眼镜，请戴上或者摘下眼镜各扫一次</string>
+    <string name="face_train_two_title">第二次训练成功</string>
+    <string name="face_train_two_content">最后扫描一次就成功啦</string>
+    <string name="dialog_alert">温馨提示</string>
+    <string name="face_train_final_content">您已完成人脸验证信息创建</string>
+    <string name="success">完成</string>
+    <string name="face_train_continue">继续训练</string>
+    <string name="face_vertifying">正在进行人脸识别...</string>
+    <string name="face_title">人脸验证</string>
+
+</resources>

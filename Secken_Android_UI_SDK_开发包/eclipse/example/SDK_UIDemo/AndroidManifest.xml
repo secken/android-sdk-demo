@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.secken.sdk.demo"
+    android:versionCode="9"
+    android:versionName="1.0.9" >
+
+    <!-- SeckenUISDK相关权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/default_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        <activity
+            android:name="com.secken.sdk.demo.ui.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.secken.sdk.demo.ui.FunctionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.secken.sdk.demo.ui.AuthorizationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.secken.sdk.demo.ui.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.secken.sdk.demo.ui.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- secken sdk核心部分相关 -->
+        <activity android:name="com.secken.sdk.ui.VertifyActivity" />
+        <activity android:name="com.secken.sdk.ui.ScanningActivity" />
+        
+        <!-- 开源部分 -->
+        <activity android:name="com.secken.sdk.open.FaceTrainActivity" />
+        <activity android:name="com.secken.sdk.open.FaceVertifyActivity" />
+        <activity android:name="com.secken.sdk.open.VoiceTrainActivity" />
+        <activity android:name="com.secken.sdk.open.VoiceVertifyActivity" />
+
+        <!-- secken推送服务 -->
+        <service
+            android:name="com.secken.sdk.socket.PushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" >
+        </service>
+
+        <!-- 开发者自定义receiver用于接收验证推送信息 -->
+        <receiver
+            android:name="com.secken.sdk.demo.MyReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.secken.sdk.action.MESSAGE_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

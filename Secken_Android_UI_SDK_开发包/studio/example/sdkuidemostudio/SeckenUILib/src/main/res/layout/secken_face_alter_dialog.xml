@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="15.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_alter_title"
+            android:layout_width="fill_parent"
+            android:layout_height="55.0dip"
+            android:background="@color/secken_bg_color"
+            android:gravity="center"
+            android:text="@string/dialog_alert"
+            android:textColor="@color/secken_white"
+            android:textSize="@dimen/secken_text_18sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:background="@color/secken_white"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_alter_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="dialog_message_alter content"
+                android:textColor="@color/secken_black"
+                android:textSize="@dimen/secken_text_18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#d4d4d4" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_gravity="bottom"
+            android:background="@color/secken_white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="50.0dip"
+                android:layout_weight="1"
+                android:background="@drawable/item_selector"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/secken_text_color"
+                android:textSize="@dimen/secken_text_18sp" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="match_parent"
+                android:background="#d4d4d4" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="0dp"
+                android:layout_height="50.0dip"
+                android:layout_weight="1"
+                android:background="@drawable/item_selector"
+                android:gravity="center"
+                android:text="@string/try_again"
+                android:textColor="@color/secken_text_color"
+                android:textSize="@dimen/secken_text_18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

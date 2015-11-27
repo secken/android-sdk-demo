@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SeckenSDK</string>
+    <string name="sdk_demo">SDK功能模块</string>
+    <string name="sdk_use">SDK使用场景</string>
+
+    <!-- SDK功能模块 -->
+    <string name="auth">点击授权SDK</string>
+    <string name="sdk_function">SDK功能模块</string>
+    <string name="face_train">人脸训练</string>
+    <string name="face_vertify">人脸验证</string>
+    <string name="face_delete">人脸删除</string>
+    <string name="voice_train">声音训练</string>
+    <string name="voice_vertify">声音验证</string>
+    <string name="voice_delete">声音删除</string>
+    <string name="qrcode">安全扫一扫</string>
+    <string name="unbind">取消授权</string>
+
+    <!-- SDK演示模块 -->
+    <string name="login">登录</string>
+    <string name="face_login">人脸登录</string>
+    <string name="voice_login">声音登录</string>
+    <string name="login_title">用户登录</string>
+    <string name="logout">退出</string>
+    <!-- 提示信息 -->
+    <string name="input_appkey">请输入appKey</string>
+    <string name="input_appid">请输入appid</string>
+    <string name="input_username">请输入username</string>
+    <string name="auth_success">授权成功</string>
+    <string name="unbind_success">解绑成功</string>
+    <string name="face_delete_success">删除人脸成功</string>
+    <string name="voice_delete_success">删除声音成功</string>
+    <string name="face_train_success">训练人脸成功</string>
+    <string name="face_train_fail">训练人脸失败</string>
+    <string name="face_train_cancel">取消训练人脸</string>
+    <string name="vertify_success">验证成功</string>
+    <string name="vertify_fail">验证失败</string>
+    <string name="vertify_cancel">取消验证</string>
+    <string name="voice_train_success">训练声音成功</string>
+    <string name="voice_train_fail">训练声音失败</string>
+    <string name="voice_train_cancel">取消训练声音</string>
+
+</resources>

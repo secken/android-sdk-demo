@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Secken_UISDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SeckenUILib/libs/Secken_UISDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

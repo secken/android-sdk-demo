@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="secken_bg_color">#4A90E2</color>
+    <color name="secken_content_bg">#60B0E2</color>
+    <color name="secken_text_color">#4AB5E2</color>
+    <color name="secken_text_color2">#B2D9F1</color>
+    <color name="secken_white">#ffffff</color>
+    <color name="secken_black">#000000</color>
+    <color name="secken_red">#D0021B</color>
+    <color name="secken_transparent">#00000000</color>
+
+</resources>
